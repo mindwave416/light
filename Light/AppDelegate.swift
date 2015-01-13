@@ -18,7 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         window = UIWindow(frame: CGRectMake(12.0, 12.0, 150.0, 150.0))
         window?.backgroundColor = UIColor.blackColor()
-        
+        var lightSwitch = UISwitch()
+        window?.addSubview(lightSwitch)
         return true
     }
 
