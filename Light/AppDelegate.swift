@@ -16,6 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        window = UIWindow(frame: CGRectMake(12.0, 12.0, 150.0, 150.0))
+        window?.backgroundColor = UIColor.blackColor()
+        
         return true
     }
 
